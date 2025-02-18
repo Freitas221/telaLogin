@@ -35,6 +35,9 @@ main {
     border-radius: 20px;
     overflow: hidden; /*Essa tag faz com que tudo que saia da borda fique escondido, nesse caso, a imagem.*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.553);
+
+    transition: width 0.5s, heigth 0.5s;
+    transition-timing-function:ease; /*Deixa a transição maais suave*/
 }
 
 #login > #imagem {

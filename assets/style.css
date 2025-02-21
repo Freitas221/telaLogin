@@ -35,9 +35,8 @@ main {
     border-radius: 20px;
     overflow: hidden; /*Essa tag faz com que tudo que saia da borda fique escondido, nesse caso, a imagem.*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.553);
-
     transition: width 0.5s, heigth 0.5s;
-    transition-timing-function:ease; /*Deixa a transição maais suave*/
+    transition-timing-function:ease; /*Deixa a transição mais suave*/
 }
 
 #login > #imagem {
@@ -51,3 +50,13 @@ main {
     display: block;
     padding: 10px;
 }
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p {
+    font-size: 0.8em;
+}
+

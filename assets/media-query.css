@@ -38,17 +38,25 @@ Grandes acima de 12000px
     }
 
     #login {
-        width: 950px; /*Dessa forma a tela de login irá parar de crescer no tamanho especificado*/
+        max-width: 950px; /*Dessa forma a tela de login irá parar de crescer no tamanho especificado*/
     }
 
     #login > #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #login > #formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    #formulario > h1 {
+        font-size: 2em;
+    }
+
+    #formulario > p {
+        font-size: 1.2em;
     }
 }

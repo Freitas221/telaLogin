@@ -31,7 +31,7 @@ main {
     transform: translate(-50%, -50%);
     background-color: white;
     width: 255px;
-    height: 520px;
+    height: 530px;
     border-radius: 20px;
     overflow: hidden; /*Essa tag faz com que tudo que saia da borda fique escondido, nesse caso, a imagem.*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.553);
@@ -58,17 +58,41 @@ main {
 
 #formulario > p {
     font-size: 0.8em;
+    margin: 10px 0px;
 }
 
 .campo {
     background-color: #5f2c82;
-    height: 40px;
+    height: 44px;
     margin: 5px 0px;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: 2px solid #5f2c82;
 }
 
 .campo > label {
     display: none;
+}
+
+.campo > span {
+    color: white;
+    font-size: 1.5em;
+    width: 40px;
+    padding: 5px;
+} 
+
+.campo > input {
+    background-color: rgb(118, 176, 188);
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    transform: translateY(-3px); /*Move a caixa input para acima*/
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+}
+
+.campo > input:hover {
+    background-color: white;
 }
 
 input[type=submit] {

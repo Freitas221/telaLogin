@@ -17,6 +17,7 @@ Grandes acima de 12000px
 
     #login {
         width: 80vw;
+        height: 250px;
     }
 
     #login > #imagem {
@@ -29,6 +30,15 @@ Grandes acima de 12000px
         float: right;
         width: 70%;
     }
+
+    input[type=submit] {
+        width: 48%;
+    }
+
+    input[type=button] {
+        width: 48%;
+        margin-left: 10px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -39,6 +49,7 @@ Grandes acima de 12000px
 
     #login {
         max-width: 950px; /*Dessa forma a tela de login irá parar de crescer no tamanho especificado*/
+        height: 300px;
     }
 
     #login > #imagem {
@@ -58,5 +69,14 @@ Grandes acima de 12000px
 
     #formulario > p {
         font-size: 1.2em;
+    }
+
+    input[type=submit] {
+        width: 48%;
+    }
+
+    input[type=button] {
+        width: 48%;
+        margin-left: 10px;
     }
 }
